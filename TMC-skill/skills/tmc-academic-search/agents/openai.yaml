@@ -1,0 +1,4 @@
+interface:
+  display_name: "TMC Literature Search"
+  short_description: "Find and compare mobile and edge research literature"
+  default_prompt: "Use $tmc-academic-search to help with my TMC research task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "TMC Data and Reproducibility"
+  short_description: "Truthful TMC data, code and artifact availability"
+  default_prompt: "Use $tmc-data to help with my TMC research task."

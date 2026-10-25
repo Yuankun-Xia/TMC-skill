@@ -1,0 +1,4 @@
+interface:
+  display_name: "TMC Citation Verification"
+  short_description: "Verify claim support and export checked references"
+  default_prompt: "Use $tmc-citation to help with my TMC research task."

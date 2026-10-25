@@ -1,0 +1,4 @@
+interface:
+  display_name: "TMC Paper Reader"
+  short_description: "Source-grounded TMC reading and bilingual explanation"
+  default_prompt: "Use $tmc-reader to help with my TMC research task."

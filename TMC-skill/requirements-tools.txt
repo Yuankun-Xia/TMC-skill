@@ -1,0 +1,4 @@
+# Optional Python tools only; no dependency is needed to read SKILL.md.
+PyMuPDF>=1.24
+matplotlib>=3.8
+PyYAML>=6.0

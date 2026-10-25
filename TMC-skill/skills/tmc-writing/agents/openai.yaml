@@ -1,0 +1,4 @@
+interface:
+  display_name: "TMC Manuscript Writing"
+  short_description: "Evidence-led TMC manuscript drafting and review"
+  default_prompt: "Use $tmc-writing to help with my TMC research task."

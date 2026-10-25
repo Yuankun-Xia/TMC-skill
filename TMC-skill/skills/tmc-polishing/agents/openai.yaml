@@ -1,0 +1,4 @@
+interface:
+  display_name: "TMC Technical Polishing"
+  short_description: "Clear TMC prose with technical meaning preserved"
+  default_prompt: "Use $tmc-polishing to help with my TMC research task."

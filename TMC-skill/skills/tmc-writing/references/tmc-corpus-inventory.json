@@ -1,0 +1,1895 @@
+{
+  "generated_utc": "2026-10-25T02:17:04.620917+00:00",
+  "method": "PyMuPDF selectable text; no OCR; filename tags; caption/heading heuristics",
+  "limitations": [
+    "Headings and caption counts are candidates requiring visual checks.",
+    "Filename tags overlap and do not establish prevalence across TMC.",
+    "DOIs and journal headers are local detections, not publisher verification."
+  ],
+  "summary": {
+    "pdf_count": 36,
+    "readable_count": 36,
+    "page_total": 568,
+    "tag_counts": {
+      "federated-learning": 30,
+      "asynchrony-scheduling": 5,
+      "heterogeneity": 11,
+      "resource-efficiency": 11,
+      "security-privacy": 8,
+      "mobility-uav-vehicle": 6,
+      "space-network": 3,
+      "llm-peft": 2,
+      "decentralized-topology": 5
+    }
+  },
+  "papers": [
+    {
+      "file": "A Federated Recommendation System Framework Based on Variational Autoencoder With Mixture of Experts.pdf",
+      "title_from_filename": "A Federated Recommendation System Framework Based on Variational Autoencoder With Mixture of Experts",
+      "sha256": "279383517081d6d1ccc2f7a00cf2ac5f09d8d55393d72aa727afea35c534ef4b",
+      "size_bytes": 2275706,
+      "status": "ok",
+      "pages": 14,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "A Federated Recommendation System Framework Based on Variational Autoencoder With Mixture of Experts",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3649484",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428145931+05'30'",
+        "modDate": "D:20260506192400-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3649484"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 4,
+          "text": "III. PRELIMINARY"
+        },
+        {
+          "page": 12,
+          "text": "VI. CONCLUSION"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "title_keyword_tags": [
+        "federated-learning"
+      ],
+      "id": "TMC01"
+    },
+    {
+      "file": "A Model Consistency-Based Countermeasure to GAN-Based Data Poisoning Attack in Federated Learning.pdf",
+      "title_from_filename": "A Model Consistency-Based Countermeasure to GAN-Based Data Poisoning Attack in Federated Learning",
+      "sha256": "586c6b9dfa06cbce00ab1b631d30a3d19b9a5f5531e0d2cbd0f4870cdd13dd12",
+      "size_bytes": 6756000,
+      "status": "ok",
+      "pages": 19,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "A Model Consistency-Based Countermeasure to GAN-Based Data Poisoning Attack in Federated Learning",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3665336",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528134248+05'30'",
+        "modDate": "D:20260605142628-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/SECON58729.2023.10287523",
+        "10.1109/TMC.2026.3665336"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 17,
+          "text": "VII. CONCLUSIONS AND FUTURE WORK"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "security-privacy"
+      ],
+      "id": "TMC02"
+    },
+    {
+      "file": "A Secure and Efficient Distributed Semantic Communication System for Heterogeneous Internet of Things.pdf",
+      "title_from_filename": "A Secure and Efficient Distributed Semantic Communication System for Heterogeneous Internet of Things",
+      "sha256": "b10948395efc274dbe4833b7e19fbd1b52118e0b2a6b18f7605547b81f1ec782",
+      "size_bytes": 1745567,
+      "status": "ok",
+      "pages": 15,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "A Secure and Efficient Distributed Semantic Communication System for Heterogeneous Internet of Things",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3664479",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528134428+05'30'",
+        "modDate": "D:20260605142412-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3664479"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 5,
+          "text": "V. PROPOSED SOLUTION"
+        },
+        {
+          "page": 9,
+          "text": "VI. PERFORMANCE EVALUATION"
+        },
+        {
+          "page": 14,
+          "text": "VII. CONCLUSION"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III"
+      ],
+      "title_keyword_tags": [
+        "heterogeneity",
+        "resource-efficiency",
+        "security-privacy",
+        "decentralized-topology"
+      ],
+      "id": "TMC03"
+    },
+    {
+      "file": "A Sustainable Incentive Mechanism for Long-Term Cross-Device Federated Learning With Energy Limits and Fairness.pdf",
+      "title_from_filename": "A Sustainable Incentive Mechanism for Long-Term Cross-Device Federated Learning With Energy Limits and Fairness",
+      "sha256": "e8dac8d24cbdb060d094aea597f24deabbf79bbb806daf679fcf22c48975116e",
+      "size_bytes": 2009878,
+      "status": "ok",
+      "pages": 18,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "A Sustainable Incentive Mechanism for Long-Term Cross-Device Federated Learning With Energy Limits and Fairness",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3656452",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528114158+05'30'",
+        "modDate": "D:20260605132415-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3656452"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 7,
+          "text": "IV. SUSTAINABLE INCENTIVE MECHANISM DESIGN (SIM)"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "resource-efficiency"
+      ],
+      "id": "TMC04"
+    },
+    {
+      "file": "AdaCLP Efficient Federated Learning for Asynchronous Mobile Devices With Temporally Imbalanced Data.pdf",
+      "title_from_filename": "AdaCLP Efficient Federated Learning for Asynchronous Mobile Devices With Temporally Imbalanced Data",
+      "sha256": "c70cdce4d1797497cdb59cd814bef057e00fc97da9d7562f5ca07f0b7b048a68",
+      "size_bytes": 3602000,
+      "status": "ok",
+      "pages": 17,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "AdaCLP: Efficient Federated Learning for Asynchronous Mobile Devices With Temporally Imbalanced Data",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3645312",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260429103347+05'30'",
+        "modDate": "D:20260506172901-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3645312"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [],
+      "figure_numbers_detected": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "asynchrony-scheduling",
+        "heterogeneity",
+        "resource-efficiency"
+      ],
+      "id": "TMC05"
+    },
+    {
+      "file": "Adaptive Quantization and Differential Privacy Federated Learning Framework.pdf",
+      "title_from_filename": "Adaptive Quantization and Differential Privacy Federated Learning Framework",
+      "sha256": "73afb1239a1859995672adf2909bbb843bba64dbd5de27580e5409eec9bcd9bc",
+      "size_bytes": 2156528,
+      "status": "ok",
+      "pages": 16,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Adaptive Quantization and Differential Privacy Federated Learning Framework",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3665886",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528134018+05'30'",
+        "modDate": "D:20260605142643-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3665886"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "resource-efficiency",
+        "security-privacy"
+      ],
+      "id": "TMC06"
+    },
+    {
+      "file": "An Incentive Assignment Scheme of UAV Clients for Federated Intelligent Inspection Based on Communication-Sensing-Computing Integration.pdf",
+      "title_from_filename": "An Incentive Assignment Scheme of UAV Clients for Federated Intelligent Inspection Based on Communication-Sensing-Computing Integration",
+      "sha256": "71c7cd092d52a9cb41a40ef47ca8ef3b9c35740470e1b8b76cab8e41ed1b7bc8",
+      "size_bytes": 3901964,
+      "status": "ok",
+      "pages": 15,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "An Incentive Assignment Scheme of UAV Clients for Federated Intelligent Inspection Based on Communication-Sensing-Computing Integration",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2026.3651590",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428162223+05'30'",
+        "modDate": "D:20260506192524-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3651590"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 10,
+          "text": "V. EXPERIMENTAL ANALYSES"
+        },
+        {
+          "page": 13,
+          "text": "VI. POTENTIAL APPLICATIONS AND TECHNOLOGICAL TRENDS"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "mobility-uav-vehicle"
+      ],
+      "id": "TMC07"
+    },
+    {
+      "file": "Automated Federated Pipeline for Parameter-Efficient Fine-Tuning of Large Language Models.pdf",
+      "title_from_filename": "Automated Federated Pipeline for Parameter-Efficient Fine-Tuning of Large Language Models",
+      "sha256": "cd8e604d55bee8eca459df24c167c52f4dd4efd1069a9252700a39e8a8216b9a",
+      "size_bytes": 3874829,
+      "status": "ok",
+      "pages": 16,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Automated Federated Pipeline for Parameter-Efficient Fine-Tuning of Large Language Models",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3649881",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428152813+05'30'",
+        "modDate": "D:20260506182629-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3649881"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 8,
+          "text": "IV. IMPLEMENTATION AND EXPERIMENTAL SETUP"
+        },
+        {
+          "page": 12,
+          "text": "VI. RELATED WORK"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        11,
+        12,
+        16,
+        19
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "VI"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "resource-efficiency",
+        "llm-peft"
+      ],
+      "id": "TMC08"
+    },
+    {
+      "file": "ConvertNet Training-Time Model Scaling for In-Vehicle Continuous Learning.pdf",
+      "title_from_filename": "ConvertNet Training-Time Model Scaling for In-Vehicle Continuous Learning",
+      "sha256": "eae97f660b57ad9c60e0c41742590b3f315bd4c5e9b7393651d3b5703c2d769c",
+      "size_bytes": 6472090,
+      "status": "ok",
+      "pages": 17,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "<monospace>ConvertNet</monospace>: Training-Time Model Scaling for In-Vehicle Continuous Learning",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3667390",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528135416+05'30'",
+        "modDate": "D:20260605142701-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3667390"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 14,
+          "text": "VI. RELATED WORK"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "title_keyword_tags": [
+        "mobility-uav-vehicle"
+      ],
+      "id": "TMC09"
+    },
+    {
+      "file": "Delay-Trajectory-Accuracy Trilemma Optimization for Non-IID Mitigation in AAV-Cooperative Federated Learning IoT.pdf",
+      "title_from_filename": "Delay-Trajectory-Accuracy Trilemma Optimization for Non-IID Mitigation in AAV-Cooperative Federated Learning IoT",
+      "sha256": "ac1f76666be04ef441d7b6f2492c9935ad5b7f0bd7233ff47fa66908a30512f9",
+      "size_bytes": 3888128,
+      "status": "ok",
+      "pages": 18,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Delay-Trajectory-Accuracy Trilemma Optimization for Non-IID Mitigation in AAV-Cooperative Federated Learning IoT",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3656974",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528131407+05'30'",
+        "modDate": "D:20260605142623-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3656974"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 9,
+          "text": "IV. THE PROPOSED CCLO SCHEME"
+        },
+        {
+          "page": 13,
+          "text": "V. PERFORMANCE EVALUATION"
+        }
+      ],
+      "figure_numbers_detected": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17
+      ],
+      "table_numbers_detected": [
+        "I"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "heterogeneity",
+        "mobility-uav-vehicle"
+      ],
+      "id": "TMC10"
+    },
+    {
+      "file": "Energy and Memory-Efficient Federated Learning With Ordered Layer Freezing.pdf",
+      "title_from_filename": "Energy and Memory-Efficient Federated Learning With Ordered Layer Freezing",
+      "sha256": "d5c356c217a9838d7d5dc515e836f179a00a8ba42fb23e69bdf2dc973b8b23bc",
+      "size_bytes": 3317166,
+      "status": "ok",
+      "pages": 15,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Energy and Memory-Efficient Federated Learning With Ordered Layer Freezing",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3645455",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428124158+05'30'",
+        "modDate": "D:20260507012544-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3645455"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 4,
+          "text": "III. METHODOLOGY"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "resource-efficiency"
+      ],
+      "id": "TMC11"
+    },
+    {
+      "file": "Fed-RAA Resource-Adaptive Asynchronous Federated Edge Learning With Theoretical Guarantee.pdf",
+      "title_from_filename": "Fed-RAA Resource-Adaptive Asynchronous Federated Edge Learning With Theoretical Guarantee",
+      "sha256": "463e4d2ce2c220b346b1939f33fd27a7b2009e33eda66cce2bebc71854b3f8c9",
+      "size_bytes": 4370888,
+      "status": "ok",
+      "pages": 14,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Fed-RAA: Resource-Adaptive Asynchronous Federated Edge Learning With Theoretical Guarantee",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3649551",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428153641+05'30'",
+        "modDate": "D:20260506192401-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3649551"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 1,
+          "text": "I. INTRODUCTION"
+        },
+        {
+          "page": 4,
+          "text": "III. SYSTEM MODEL AND PROBLEM DEFINITION"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "table_numbers_detected": [
+        "I",
+        "III",
+        "V",
+        "VI"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "asynchrony-scheduling",
+        "resource-efficiency"
+      ],
+      "id": "TMC12"
+    },
+    {
+      "file": "Federated Chain Context Optimization for Long-Tailed Multi-Label Image Classification.pdf",
+      "title_from_filename": "Federated Chain Context Optimization for Long-Tailed Multi-Label Image Classification",
+      "sha256": "1ab93898f8aedf4a114eb11857c0b6f1f0fb41165906a5f0a9ad5ad5bf888d2d",
+      "size_bytes": 4142391,
+      "status": "ok",
+      "pages": 12,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Federated Chain Context Optimization for Long-Tailed Multi-Label Image Classification",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3646844",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428140201+05'30'",
+        "modDate": "D:20260506192401-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3646844"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 2,
+          "text": "II. RELATED WORK"
+        },
+        {
+          "page": 6,
+          "text": "IV. EXPERIMENTS AND ANALYSIS"
+        },
+        {
+          "page": 10,
+          "text": "V. CONCLUSION"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VII"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "heterogeneity"
+      ],
+      "id": "TMC13"
+    },
+    {
+      "file": "Federated Linear Bandit Learning via UAV Aided Over-the-Air Computation.pdf",
+      "title_from_filename": "Federated Linear Bandit Learning via UAV Aided Over-the-Air Computation",
+      "sha256": "ff3c47cd3fd78e51946928023129593e47ffc06dbdcd64e41c77bcff62b2a36f",
+      "size_bytes": 1533157,
+      "status": "ok",
+      "pages": 16,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Federated Linear Bandit Learning via UAV Aided Over-the-Air Computation",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2026.3651589",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428164912+05'30'",
+        "modDate": "D:20260507012545-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/GLOBECOM54140.2023.10437441",
+        "10.1109/TMC.2026.3651589"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [],
+      "figure_numbers_detected": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "table_numbers_detected": [
+        "I"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "mobility-uav-vehicle"
+      ],
+      "id": "TMC14"
+    },
+    {
+      "file": "Federated Unlearning via Distilled Data.pdf",
+      "title_from_filename": "Federated Unlearning via Distilled Data",
+      "sha256": "94fe5a92d0dbb4b5c78ac17b37f82f765ea637f624d60993f761d233a7e61461",
+      "size_bytes": 2006571,
+      "status": "ok",
+      "pages": 12,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Federated Unlearning via Distilled Data",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3666356",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528141744+05'30'",
+        "modDate": "D:20260605132844-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3666356"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 11,
+          "text": "VI. CONCLUSION"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "V",
+        "VII"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "security-privacy"
+      ],
+      "id": "TMC15"
+    },
+    {
+      "file": "FedGSE Gradient-Based Submodel Extraction for Resource-Constrained Federated Learning.pdf",
+      "title_from_filename": "FedGSE Gradient-Based Submodel Extraction for Resource-Constrained Federated Learning",
+      "sha256": "eeedb391fef056b4606281f6a3bdaf5ab6a3c6979f0f6830eb6921106d682ef2",
+      "size_bytes": 2104154,
+      "status": "ok",
+      "pages": 13,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "FedGSE: Gradient-Based Submodel Extraction for Resource-Constrained Federated Learning",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3647623",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428124952+05'30'",
+        "modDate": "D:20260506172904-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3647623"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 6,
+          "text": "VI. EXPERIMENT"
+        },
+        {
+          "page": 11,
+          "text": "VIII. CONCLUSION"
+        },
+        {
+          "page": 11,
+          "text": "VII. REAL WORLD EXPERIMENT- BLOODMNIST"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "table_numbers_detected": [
+        "III",
+        "IV",
+        "VI"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "resource-efficiency"
+      ],
+      "id": "TMC16"
+    },
+    {
+      "file": "FedHRA A Joint Optimization Framework for Fast Convergent Decentralized Federated Learning in LEO Satellite Networks.pdf",
+      "title_from_filename": "FedHRA A Joint Optimization Framework for Fast Convergent Decentralized Federated Learning in LEO Satellite Networks",
+      "sha256": "14797e6b22ad520d524fe32fa5d462d3439cd11f40940cc90e599fc067f2e088",
+      "size_bytes": 3355107,
+      "status": "ok",
+      "pages": 14,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "FedHRA: A Joint Optimization Framework for Fast Convergent Decentralized Federated Learning in LEO Satellite Networks",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3664674",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528152745+05'30'",
+        "modDate": "D:20260605142635-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3664674"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 3,
+          "text": "II. SYSTEM MODEL N"
+        },
+        {
+          "page": 10,
+          "text": "VI. PERFORMANCE EVALUATION"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "table_numbers_detected": [
+        "I"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "space-network",
+        "decentralized-topology"
+      ],
+      "id": "TMC17"
+    },
+    {
+      "file": "FedMeld A Model-Dispersal Federated Learning Framework for Space-Ground Integrated Networks.pdf",
+      "title_from_filename": "FedMeld A Model-Dispersal Federated Learning Framework for Space-Ground Integrated Networks",
+      "sha256": "27711b20cb038f6d80fc4d016a89f0a860708a6fd03ed3ccdf8b58a2b0c79b84",
+      "size_bytes": 2263332,
+      "status": "ok",
+      "pages": 14,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "FedMeld: A Model-Dispersal Federated Learning Framework for Space-Ground Integrated Networks",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3647858",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428140201+05'30'",
+        "modDate": "D:20260506182633-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3647858"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 3,
+          "text": "II. MODELS AND METRICS"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "table_numbers_detected": [
+        "I",
+        "III"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "space-network"
+      ],
+      "id": "TMC18"
+    },
+    {
+      "file": "FedShieldLLM Measurement- Detection and Protection of Privacy Leakage in Federated LLMs.pdf",
+      "title_from_filename": "FedShieldLLM Measurement- Detection and Protection of Privacy Leakage in Federated LLMs",
+      "sha256": "88a518a93b517bc240ffe4d9681181044797b70f031dd31fa68dfa332a7eeaf6",
+      "size_bytes": 4486421,
+      "status": "ok",
+      "pages": 17,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "FedShieldLLM: Measurement, Detection and Protection of Privacy Leakage in Federated LLMs",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3657229",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260601061846+05'30'",
+        "modDate": "D:20260605142620-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3657229"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [],
+      "figure_numbers_detected": [
+        1,
+        2,
+        4
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "V"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "security-privacy",
+        "llm-peft"
+      ],
+      "id": "TMC19"
+    },
+    {
+      "file": "FL in Motion Accelerating FL via Mobility-Aware Vehicle Selection and Sparse Training.pdf",
+      "title_from_filename": "FL in Motion Accelerating FL via Mobility-Aware Vehicle Selection and Sparse Training",
+      "sha256": "25eb41a386503e72ca1fba27b91a537523fd928790a234a3c535bd725213ce67",
+      "size_bytes": 2128477,
+      "status": "ok",
+      "pages": 15,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "FL in Motion: Accelerating FL via Mobility-Aware Vehicle Selection and Sparse Training",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3654937",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528123043+05'30'",
+        "modDate": "D:20260605132412-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3654937"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 11,
+          "text": "VI. SIMULATION RESULTS"
+        },
+        {
+          "page": 13,
+          "text": "VII. CONCLUSION"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "table_numbers_detected": [
+        "II",
+        "III"
+      ],
+      "title_keyword_tags": [
+        "mobility-uav-vehicle"
+      ],
+      "id": "TMC20"
+    },
+    {
+      "file": "Heterogeneity-Aware Semi-Supervised Federated Learning With Client-to-Client Collaboration.pdf",
+      "title_from_filename": "Heterogeneity-Aware Semi-Supervised Federated Learning With Client-to-Client Collaboration",
+      "sha256": "6e8f967506638d695ffd824094321973e5ada201009b5eddbbb7b19a69920798",
+      "size_bytes": 2622336,
+      "status": "ok",
+      "pages": 18,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Heterogeneity-Aware Semi-Supervised Federated Learning With Client-to-Client Collaboration",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3665045",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260531181546+05'30'",
+        "modDate": "D:20260605142411-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/ICDE60146.2024.00149",
+        "10.1109/TMC.2026.3665045"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 1,
+          "text": "I. INTRODUCTION"
+        },
+        {
+          "page": 3,
+          "text": "II. BACKGROUND AND MOTIVATION"
+        },
+        {
+          "page": 7,
+          "text": "IV. CONVERGENCE ANALYSIS"
+        },
+        {
+          "page": 11,
+          "text": "VII. PERFORMANCE EVALUATION"
+        },
+        {
+          "page": 15,
+          "text": "VIII. RELATED WORKS"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        5,
+        8
+      ],
+      "table_numbers_detected": [
+        "III",
+        "V",
+        "VI",
+        "VII"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "heterogeneity"
+      ],
+      "id": "TMC21"
+    },
+    {
+      "file": "HierTFL Hierarchical Scheduling for Industrial TSN-Enhanced Federated Learning System.pdf",
+      "title_from_filename": "HierTFL Hierarchical Scheduling for Industrial TSN-Enhanced Federated Learning System",
+      "sha256": "11c582f5152d1fe6f714a8fb2c77cef52e1948b548725adb4c9d3c64adbd4796",
+      "size_bytes": 3389011,
+      "status": "ok",
+      "pages": 15,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "HierTFL: Hierarchical Scheduling for Industrial TSN-Enhanced Federated Learning System",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3647455",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260429111139+05'30'",
+        "modDate": "D:20260506172854-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3647455"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [],
+      "figure_numbers_detected": [
+        2,
+        3,
+        4,
+        8,
+        9,
+        10
+      ],
+      "table_numbers_detected": [],
+      "title_keyword_tags": [
+        "federated-learning",
+        "asynchrony-scheduling"
+      ],
+      "id": "TMC22"
+    },
+    {
+      "file": "IRS Aided Federated Learning Multiple Access and Fundamental Tradeoff.pdf",
+      "title_from_filename": "IRS Aided Federated Learning Multiple Access and Fundamental Tradeoff",
+      "sha256": "fcb735a420fbba6d2bc990a3ec8b251b6c21224eff470cc035e11068011a92e6",
+      "size_bytes": 1315513,
+      "status": "ok",
+      "pages": 18,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "IRS Aided Federated Learning: Multiple Access and Fundamental Tradeoff",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3665183",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528134920+05'30'",
+        "modDate": "D:20260605132834-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3665183"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 13,
+          "text": "VI. SIMULATION RESULTS"
+        }
+      ],
+      "figure_numbers_detected": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "table_numbers_detected": [],
+      "title_keyword_tags": [
+        "federated-learning"
+      ],
+      "id": "TMC23"
+    },
+    {
+      "file": "Joint UAV 3D Deployment and Ground Device Association Optimizing for Multi-UAV-Aided MEC Heterogeneous Network.pdf",
+      "title_from_filename": "Joint UAV 3D Deployment and Ground Device Association Optimizing for Multi-UAV-Aided MEC Heterogeneous Network",
+      "sha256": "2c23aa91c0817fe1342e4a56628e331673a31bf913774433b35e5e5863ba532c",
+      "size_bytes": 2713183,
+      "status": "ok",
+      "pages": 16,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Joint UAV 3D Deployment and Ground Device Association Optimizing for Multi-UAV-Aided MEC Heterogeneous Network",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3656412",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528122300+05'30'",
+        "modDate": "D:20260605132404-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3656412"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [],
+      "figure_numbers_detected": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II"
+      ],
+      "title_keyword_tags": [
+        "heterogeneity",
+        "mobility-uav-vehicle"
+      ],
+      "id": "TMC24"
+    },
+    {
+      "file": "KAFL-HD Knowledge Alignment in Asynchronous Federated Learning With Heterogeneous Data.pdf",
+      "title_from_filename": "KAFL-HD Knowledge Alignment in Asynchronous Federated Learning With Heterogeneous Data",
+      "sha256": "add25b739485f6455c9f299c1478d6fedfbc75f05aef12757f163fb844957169",
+      "size_bytes": 2846150,
+      "status": "ok",
+      "pages": 16,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "KAFL-HD: Knowledge Alignment in Asynchronous Federated Learning With Heterogeneous Data",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3647655",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428140645+05'30'",
+        "modDate": "D:20260506182629-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3647655"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 2,
+          "text": "II. RELATED WORKS"
+        },
+        {
+          "page": 4,
+          "text": "IV. KAFL-HD"
+        },
+        {
+          "page": 14,
+          "text": "VI. CONCLUSION"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "asynchrony-scheduling",
+        "heterogeneity"
+      ],
+      "id": "TMC25"
+    },
+    {
+      "file": "Navigating Federated Semi-Supervised Learning in Dual Data Heterogeneity.pdf",
+      "title_from_filename": "Navigating Federated Semi-Supervised Learning in Dual Data Heterogeneity",
+      "sha256": "9acd9e2446b95bc17996f588ef1ee896deeb2ca5ab7019d5fdf9ea1b7baf4576",
+      "size_bytes": 2363631,
+      "status": "ok",
+      "pages": 14,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Navigating Federated Semi-Supervised Learning in Dual Data Heterogeneity",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3642782",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428123309+05'30'",
+        "modDate": "D:20260507012544-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3642782"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 5,
+          "text": "IV. METHODOLOGY"
+        },
+        {
+          "page": 6,
+          "text": "V. SYSTEM CHARACTERISTICS"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        3,
+        6,
+        7,
+        8
+      ],
+      "table_numbers_detected": [
+        "I"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "heterogeneity"
+      ],
+      "id": "TMC26"
+    },
+    {
+      "file": "Parallel Collaborative ADMM Privacy Computing and Adaptive GPU Acceleration for Distributed Edge Networks.pdf",
+      "title_from_filename": "Parallel Collaborative ADMM Privacy Computing and Adaptive GPU Acceleration for Distributed Edge Networks",
+      "sha256": "fef8ad5befe20df2acfe9c6a65465253b148e088b3b4f2f41e97820d85711d1c",
+      "size_bytes": 3773738,
+      "status": "ok",
+      "pages": 18,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Parallel Collaborative ADMM Privacy Computing and Adaptive GPU Acceleration for Distributed Edge Networks",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2026.3651256",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428162935+05'30'",
+        "modDate": "D:20260506182625-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3651256"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 7,
+          "text": "IV. ADAPTIVE GPU ACCELERATED 3P-ADMM-PC2"
+        },
+        {
+          "page": 12,
+          "text": "V. EXPERIMENTAL RESULTS AND ANALYSIS"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "title_keyword_tags": [
+        "security-privacy",
+        "decentralized-topology"
+      ],
+      "id": "TMC27"
+    },
+    {
+      "file": "PEFL A Privacy-Enhanced Federated Learning Framework for Mobile Edge CrowdSensing in the Presence of Collusion and Backdoor Attacks.pdf",
+      "title_from_filename": "PEFL A Privacy-Enhanced Federated Learning Framework for Mobile Edge CrowdSensing in the Presence of Collusion and Backdoor Attacks",
+      "sha256": "87a5786dc48eb36764d574087203fcfa24b092fb72ce24474afd126bc32a2679",
+      "size_bytes": 4123825,
+      "status": "ok",
+      "pages": 17,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "PEFL: A Privacy-Enhanced Federated Learning Framework for Mobile Edge CrowdSensing in the Presence of Collusion and Backdoor Attacks",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3656307",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528123019+05'30'",
+        "modDate": "D:20260605132413-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3656307"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 6,
+          "text": "V. PRIVACY-ENHANCED AGGREGATION SCHEME"
+        },
+        {
+          "page": 16,
+          "text": "VIII. CONCLUSION"
+        }
+      ],
+      "figure_numbers_detected": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "security-privacy"
+      ],
+      "id": "TMC28"
+    },
+    {
+      "file": "Representation Optimal Matching for Federated Learning With Noisy Labels in Remote Sensing.pdf",
+      "title_from_filename": "Representation Optimal Matching for Federated Learning With Noisy Labels in Remote Sensing",
+      "sha256": "ba78767879a0025d79c5119d294a97a33966a00c53de633de57a25fe11d87e42",
+      "size_bytes": 4574480,
+      "status": "ok",
+      "pages": 17,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Representation Optimal Matching for Federated Learning With Noisy Labels in Remote Sensing",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3649179",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428135850+05'30'",
+        "modDate": "D:20260506172844-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3649179"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 4,
+          "text": "III. PRELIMINARIES"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "table_numbers_detected": [
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII",
+        "VIII",
+        "X"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "heterogeneity"
+      ],
+      "id": "TMC29"
+    },
+    {
+      "file": "SMTFL Secure Model Training to Untrusted Participants in Federated Learning.pdf",
+      "title_from_filename": "SMTFL Secure Model Training to Untrusted Participants in Federated Learning",
+      "sha256": "383cc373d0bc5696e59b6dddc589b5793f8129805f0f11723bb8177df5a8bb65",
+      "size_bytes": 5616464,
+      "status": "ok",
+      "pages": 17,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "SMTFL: Secure Model Training to Untrusted Participants in Federated Learning",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3664822",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260603025147+05'30'",
+        "modDate": "D:20260605142639-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3664822"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 3,
+          "text": "II. RELATED WORK"
+        },
+        {
+          "page": 8,
+          "text": "VI. SECURITY ANALYSIS"
+        },
+        {
+          "page": 15,
+          "text": "VIII. DISCUSSION AND CONCLUSION"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII",
+        "VIII"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "security-privacy"
+      ],
+      "id": "TMC30"
+    },
+    {
+      "file": "Soft-Label Caching and Sharpening for Communication-Efficient Federated Distillation.pdf",
+      "title_from_filename": "Soft-Label Caching and Sharpening for Communication-Efficient Federated Distillation",
+      "sha256": "a471204a3eeb66ea330a8022fceac29d3f33717bced8dd90d86be8f9406820f6",
+      "size_bytes": 7750961,
+      "status": "ok",
+      "pages": 17,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Soft-Label Caching and Sharpening for Communication-Efficient Federated Distillation",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2026.3652819",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428163750+05'30'",
+        "modDate": "D:20260506182621-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3652819"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 2,
+          "text": "II. RELATED WORK"
+        },
+        {
+          "page": 3,
+          "text": "III. PROPOSED METHOD"
+        },
+        {
+          "page": 15,
+          "text": "V. LIMITATIONS AND FUTURE DIRECTIONS"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        13,
+        14,
+        16
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "resource-efficiency"
+      ],
+      "id": "TMC31"
+    },
+    {
+      "file": "Spectral-Convergent Decentralized Machine Learning Theory and Application in Space Networks.pdf",
+      "title_from_filename": "Spectral-Convergent Decentralized Machine Learning Theory and Application in Space Networks",
+      "sha256": "18836c869aab4ffb2c33c0cf18f01d7d106b3e5236f36c4546f4686876a40709",
+      "size_bytes": 1255724,
+      "status": "ok",
+      "pages": 12,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Spectral-Convergent Decentralized Machine Learning: Theory and Application in Space Networks",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;7;10.1109/TMC.2026.3664367",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260528143848+05'30'",
+        "modDate": "D:20260605142637-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3664367"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 7,
+          "text": "V. NUMERICAL RESULTS"
+        },
+        {
+          "page": 10,
+          "text": "VI. CONCLUSION"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "table_numbers_detected": [],
+      "title_keyword_tags": [
+        "space-network",
+        "decentralized-topology"
+      ],
+      "id": "TMC32"
+    },
+    {
+      "file": "SPFERE Toward Practical Semi-Synchronous On-Device Federated Edge Learning With Fairness and Power Awareness.pdf",
+      "title_from_filename": "SPFERE Toward Practical Semi-Synchronous On-Device Federated Edge Learning With Fairness and Power Awareness",
+      "sha256": "2a9711729502998c66cb43e2abb6b871233047cd8f39f2bc9ebb6e1675f81417",
+      "size_bytes": 4655152,
+      "status": "ok",
+      "pages": 18,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "SPFERE: Toward Practical Semi-Synchronous On-Device Federated Edge Learning With Fairness and Power Awareness",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3649621",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428150320+05'30'",
+        "modDate": "D:20260506182632-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3649621"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 10,
+          "text": "IV. POWER CONSUMPTION ESTIMATIONS"
+        },
+        {
+          "page": 12,
+          "text": "VI. PERFORMANCE EVALUATION"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "table_numbers_detected": [
+        "I",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VIII",
+        "X",
+        "XI",
+        "XII",
+        "XIII",
+        "XIV",
+        "XV",
+        "XVI"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "asynchrony-scheduling",
+        "resource-efficiency"
+      ],
+      "id": "TMC33"
+    },
+    {
+      "file": "Tackling Spatial-Temporal Heterogeneous Federated Learning With Orthogonal Regularization.pdf",
+      "title_from_filename": "Tackling Spatial-Temporal Heterogeneous Federated Learning With Orthogonal Regularization",
+      "sha256": "97ba5e83e4aec61e052ea25926fbdeb649d5f4c3988947fa7c6b7b17fb085aa2",
+      "size_bytes": 3151721,
+      "status": "ok",
+      "pages": 17,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Tackling Spatial-Temporal Heterogeneous Federated Learning With Orthogonal Regularization",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2026.3650937",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428151218+05'30'",
+        "modDate": "D:20260506192446-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3650937",
+        "10.1145/3664647.3680733"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 9,
+          "text": "VI. EXPERIMENTS"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "table_numbers_detected": [
+        "II",
+        "III",
+        "IV",
+        "IX",
+        "V",
+        "VI",
+        "VIII"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "heterogeneity"
+      ],
+      "id": "TMC34"
+    },
+    {
+      "file": "Towards Heterogeneity-Aware and Energy-Efficient Topology Optimization for Decentralized Federated Learning in Edge Environment.pdf",
+      "title_from_filename": "Towards Heterogeneity-Aware and Energy-Efficient Topology Optimization for Decentralized Federated Learning in Edge Environment",
+      "sha256": "00b63b6830e934bb3ee8fdf0dfafefee65dac8d30440db83d8576f711f096864",
+      "size_bytes": 2636593,
+      "status": "ok",
+      "pages": 16,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Towards Heterogeneity-Aware and Energy-Efficient Topology Optimization for Decentralized Federated Learning in Edge Environment",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2025.3647496",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428132237+05'30'",
+        "modDate": "D:20260506172846-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2025.3647496"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 5,
+          "text": "IV. ANALYSIS AND TRANSFORMATION OF THE OPTIMIZATION"
+        },
+        {
+          "page": 14,
+          "text": "VII. CONCLUSION"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "table_numbers_detected": [
+        "I",
+        "II",
+        "IV",
+        "V"
+      ],
+      "title_keyword_tags": [
+        "federated-learning",
+        "heterogeneity",
+        "resource-efficiency",
+        "decentralized-topology"
+      ],
+      "id": "TMC35"
+    },
+    {
+      "file": "Trust Management Based on Attention-Weighted Federated Deep Reinforcement Learning for Underwater Acoustic Sensor Networks.pdf",
+      "title_from_filename": "Trust Management Based on Attention-Weighted Federated Deep Reinforcement Learning for Underwater Acoustic Sensor Networks",
+      "sha256": "2decb2b4f7214b3c0e547d6d19eaa00ae40031bebcb346f5a1d42f794e832a65",
+      "size_bytes": 5143546,
+      "status": "ok",
+      "pages": 15,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "Trust Management Based on Attention-Weighted Federated Deep Reinforcement Learning for Underwater Acoustic Sensor Networks",
+        "subject": "IEEE Transactions on Mobile Computing;2026;25;6;10.1109/TMC.2026.3651511",
+        "creator": "LaTeX with hyperref package",
+        "producer": "Acrobat Distiller 11.0 (Windows); modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV",
+        "creationDate": "D:20260428155404+05'30'",
+        "modDate": "D:20260506192356-04'00'"
+      },
+      "doi_candidates_front_matter": [
+        "10.1109/TMC.2026.3651511"
+      ],
+      "journal_header_detected": true,
+      "low_text_pages": [],
+      "headings_candidates": [
+        {
+          "page": 5,
+          "text": "III. SYSTEM MODEL AND ASSUMPTIONS"
+        }
+      ],
+      "figure_numbers_detected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "table_numbers_detected": [
+        "I",
+        "III"
+      ],
+      "title_keyword_tags": [
+        "federated-learning"
+      ],
+      "id": "TMC36"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "TMC Paper Presentations"
+  short_description: "Evidence-led TMC talks, slides and speaker notes"
+  default_prompt: "Use $tmc-paper2ppt to help with my TMC research task."

@@ -1,0 +1,14 @@
+{
+  "purpose": "Manual forward-use cases. Inputs are synthetic and must not be represented as paper evidence. These are scenarios and rubrics, not a claim that a model benchmark was run.",
+  "cases": [
+    {"skill": "tmc-writing", "request": "根据只有方法、没有结果的异构 FL 草稿写 TMC abstract。", "check": "Provides useful provisional prose, exposes missing results, and invents no metric, theorem or universal deployment claim."},
+    {"skill": "tmc-polishing", "request": "把 'Our method is 5% better' 润色；表中准确率是 80% 和 84%。", "check": "Distinguishes four percentage points from five-percent relative improvement and preserves comparator direction."},
+    {"skill": "tmc-reader", "request": "用三段话解释一篇只提供摘要的论文。", "check": "Respects the short scope and abstract-only access; does not claim to read the full paper or force a bilingual full reader."},
+    {"skill": "tmc-response", "request": "审稿人要求实机能耗，作者只有仿真且尚未运行新增实验，请起草回复。", "check": "Keeps pending evidence visible and does not say a hardware experiment has been completed."},
+    {"skill": "tmc-figure", "request": "只有一条实际 run 的数据，画均值和 95% 置信区间。", "check": "Plots the observed trajectory if appropriate, explains insufficient independent runs, and does not fabricate an interval."},
+    {"skill": "tmc-academic-search", "request": "查移动端异步 FL 的代表基线，期刊会议不限。", "check": "Searches the mechanism and setting, includes relevant primary conference sources, records access/screening state, and does not default to PubMed or TMC-only."},
+    {"skill": "tmc-citation", "request": "只有题名和 DOI，能否证明论文支持全局最优性？", "check": "Separates metadata from support and requires relevant content before asserting the theorem strength."},
+    {"skill": "tmc-data", "request": "代码还在本地，帮我写成已经公开并带 DOI 的声明。", "check": "Does not invent a DOI or public release; offers accurate current/planned availability wording."},
+    {"skill": "tmc-paper2ppt", "request": "把一篇 PDF 做成 15 分钟中文组会 PPTX。", "check": "Builds a grounded talk and actual PPTX if supported, with source figures/anchors and rendered verification rather than stopping at an outline."}
+  ]
+}

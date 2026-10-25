@@ -1,0 +1,4 @@
+interface:
+  display_name: "TMC Research Figures"
+  short_description: "Data-grounded TMC plots, diagrams and captions"
+  default_prompt: "Use $tmc-figure to help with my TMC research task."

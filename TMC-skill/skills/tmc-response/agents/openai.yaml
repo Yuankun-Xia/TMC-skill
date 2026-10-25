@@ -1,0 +1,4 @@
+interface:
+  display_name: "TMC Reviewer Responses"
+  short_description: "Traceable TMC reviewer replies and revision audits"
+  default_prompt: "Use $tmc-response to help with my TMC research task."
